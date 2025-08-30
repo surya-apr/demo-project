@@ -10,3 +10,19 @@ title: demo-project
                         example: {
                             "status": "demo project is successfully completed"
                         }
+/creteDemo:
+    post:
+        body:
+            application/json:
+                example: {
+                    "empID": "100",
+                    "empName": "Mahesh",
+                    "email": "mahesh@gmail.com"
+                }
+        responses:
+            200:
+                body:
+                    application/json:
+                        example: {
+                            "status": "employee details created successfully in the demo project"
+                        }        
