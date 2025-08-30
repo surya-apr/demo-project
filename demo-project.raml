@@ -25,4 +25,21 @@ title: demo-project
                     application/json:
                         example: {
                             "status": "employee details created successfully in the demo project"
-                        }        
+                        } 
+/update:
+    put:
+        body:
+            application/json:
+                example:
+                    {
+                        "empID": "100",
+                        "empName": "mahesh",
+                        "email": "mahesh@gmail.com"
+                    }                            
+        responses:
+            200:
+                body:
+                    application/json:
+                        example: {
+                            "status": "employee details updated successfully"
+                        }               
