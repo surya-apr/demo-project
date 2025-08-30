@@ -1,0 +1,11 @@
+{
+  "main": "demo-project.raml",
+  "name": "demo-project",
+  "classifier": "raml",
+  "organizationId": "48283cc3-8d24-4de0-aba4-0238abe6bf80",
+  "descriptorVersion": "1.0.0",
+  "groupId": "48283cc3-8d24-4de0-aba4-0238abe6bf80",
+  "assetId": "demo-project",
+  "version": "1.0.0",
+  "tags": []
+}

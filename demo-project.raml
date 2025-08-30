@@ -1,0 +1,12 @@
+#%RAML 1.0
+title: demo-project
+/demo:
+    get:
+        description: this is the demo project for testing purpose
+        responses:
+            200:
+                body:
+                    application/json:
+                        example: {
+                            "status": "demo project is successfully completed"
+                        }
